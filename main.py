@@ -31,13 +31,13 @@ class Temperature:
             
             # cases
             if self.event == 'Celsius->Kelvin' or 'Celsius->Fahrenheit':
-                t.celsius()
+                self.celsius()
 
             if self.event == 'Kelvin->Celsius' or 'Kelvin->Fahrenheit':
-                t.kelvin()
+                self.kelvin()
 
             if self.event == 'Fahrenheit->Celsius' or 'Fahrenheit->Kelvin':
-                t.fahrenheit()
+                self.fahrenheit()
 
 
 
